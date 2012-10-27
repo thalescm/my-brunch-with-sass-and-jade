@@ -1,23 +1,18 @@
-# Brunch with Chaplin
-![](https://a248.e.akamai.net/camo.github.com/b7ebb8bbcec7938940cf8e9c441124c3bddafd3a/687474703a2f2f662e636c2e6c792f6974656d732f34373039326b30423141334a317a3166306b34362f6277632e706e67)
+# Brunch with Sass
+![Brunch with Sass logo](bc-luke.github.com/brunch-with-sass/logo.png)
 
-Brunch with Chaplin is a skeleton (boilerplate) for [Brunch](http://brunch.io)
-based on [Chaplin](https://github.com/chaplinjs/chaplin) framework.
+Brunch with Sass is a skeleton (boilerplate) for [Brunch](http://brunch.io)
+based on [Chaplin](https://github.com/chaplinjs/chaplin) framework and Sass (https://github.com/nex3/sass).
 
 Requires Brunch 1.4+.
 
 ## Getting started
-* Create new project via executing `brunch new <project name>`.
-Brunch with chaplin is a default application skeleton for Brunch,
-so you don't need to specify `--skeleton` option for the command.
+* Create new project via executing `brunch new <project name> --skeleton https://bc-luke.github.com/brunch-with-sass`.
 * Build the project with `brunch b` or `brunch w`.
 * Open the `public/` dir to see the result.
 * Write your code.
 
-Example application built with the skeleton:
-[Ost.io](https://github.com/paulmillr/ostio).
-
-See [Chaplin github page](https://github.com/chaplinjs/chaplin) for
+See [Chaplin github page](https://github.com/chaplinjs/chaplin) and the [Sass github page](https://github.com/nex3/sass) for
 documentation.
 
 ## Difference from Chaplin Boilerplate
@@ -29,9 +24,13 @@ except a few changes:
 * Added authentication abstractions (`SessionController`, `LoginView` etc).
 * CommonJS is used instead of AMD, because it's easier to use & debug.
 
+## Difference from Brunch with Chaplin
+[Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin)
+* Sass now used in place of Stylus
+
 ## Features
 * HTML5Boilerplate 4.0.0 html & css are included.
-* CoffeeScript + Stylus + Handlebars as app languages
+* CoffeeScript + Sass + Handlebars as app languages
 (you can change this to anything you want)
 * Backbone as main framework
 * Supports IE8 and up.
