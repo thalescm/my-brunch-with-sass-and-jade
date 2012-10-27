@@ -1,4 +1,8 @@
-@import 'color'
+@import 'color';
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
 
 .header {
   width: 476px;
@@ -8,7 +12,7 @@
   border-bottom-left-radius: 5px;
   background-color: $header-background-color;
 
-  &-link {
+  & -link {
     margin-right: 32px;
     text-decoration: none;
     color: $link-color;
