@@ -25,7 +25,7 @@ except a few changes:
 * CommonJS is used instead of AMD, because it's easier to use & debug.
 
 ## Difference from Brunch with Chaplin
-[Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin)
+[Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin) is a default application skeleton for Brunch.
 * Sass now used in place of Stylus
 
 ## Features
