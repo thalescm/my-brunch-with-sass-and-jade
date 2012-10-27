@@ -7,15 +7,15 @@ based on [Chaplin](https://github.com/chaplinjs/chaplin) framework and [Sass](ht
 Requires Brunch 1.4+.
 
 ## Getting started
-* Create new project via executing `brunch new <project name> --skeleton https://bc-luke.github.com/brunch-with-sass`.
+* Create new project by executing `brunch new <project name> --skeleton https://github.com/bc-luke/brunch-with-sass`.
 * Build the project with `brunch b` or `brunch w`.
 * Open the `public/` dir to see the result.
 * Write your code.
 
-See [Chaplin github page](https://github.com/chaplinjs/chaplin) and the [Sass github page](https://github.com/nex3/sass) for
+See the [Chaplin github page](https://github.com/chaplinjs/chaplin) and the [Sass github page](https://github.com/nex3/sass) for
 documentation.
 
-## Difference from Chaplin Boilerplate
+## Differences from Chaplin Boilerplate
 [Chaplin Boilerplate](https://github.com/chaplinjs/chaplin-boilerplate)
 is a official boilerplate all for chaplin. This skeleton is almost the same,
 except a few changes:
@@ -24,7 +24,7 @@ except a few changes:
 * Added authentication abstractions (`SessionController`, `LoginView` etc).
 * CommonJS is used instead of AMD, because it's easier to use & debug.
 
-## Difference from Brunch with Chaplin
+## Differences from Brunch with Chaplin
 [Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin) is a default application skeleton for Brunch.
 * Sass now used in place of Stylus.
 
