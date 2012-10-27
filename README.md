@@ -1,13 +1,13 @@
-# Brunch with Sass
-![Brunch with Sass logo](https://raw.github.com/bc-luke/brunch-with-sass/master/logo.png)
+# Sassy Brunch
+![Sassy Brunch logo](https://raw.github.com/bc-luke/sassy-brunch/master/logo.png)
 
-Brunch with Sass is a skeleton (boilerplate) for [Brunch](http://brunch.io)
+Sassy Brunch is a skeleton (boilerplate) for [Brunch](http://brunch.io)
 based on [Chaplin](https://github.com/chaplinjs/chaplin) framework and [Sass](https://github.com/nex3/sass).
 
 Requires Brunch 1.4+.
 
 ## Getting started
-* Create new project by executing `brunch new <project name> --skeleton https://github.com/bc-luke/brunch-with-sass`.
+* Create new project by executing `brunch new <project name> --skeleton https://github.com/bc-luke/sassy-brunch`.
 * Build the project with `brunch b` or `brunch w`.
 * Open the `public/` dir to see the result.
 * Write your code.
