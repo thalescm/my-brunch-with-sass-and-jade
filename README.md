@@ -1,5 +1,5 @@
 # Brunch with Sass
-![Brunch with Sass logo](/logo.png)
+![Brunch with Sass logo](https://raw.github.com/bc-luke/brunch-with-sass/master/logo.png)
 
 Brunch with Sass is a skeleton (boilerplate) for [Brunch](http://brunch.io)
 based on [Chaplin](https://github.com/chaplinjs/chaplin) framework and [Sass](https://github.com/nex3/sass).
