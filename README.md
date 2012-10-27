@@ -26,7 +26,7 @@ except a few changes:
 
 ## Difference from Brunch with Chaplin
 [Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin) is a default application skeleton for Brunch.
-* Sass now used in place of Stylus
+* Sass now used in place of Stylus.
 
 ## Features
 * HTML5Boilerplate 4.0.0 html & css are included.
