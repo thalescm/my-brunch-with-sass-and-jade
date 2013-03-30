@@ -2,7 +2,7 @@
 ![Sassy Brunch logo](https://raw.github.com/bc-luke/sassy-brunch/master/logo.png)
 
 Sassy Brunch is a skeleton (boilerplate) for [Brunch](http://brunch.io)
-based on [Chaplin](https://github.com/chaplinjs/chaplin) framework and [Sass](https://github.com/nex3/sass).
+based on [Chaplin](https://github.com/chaplinjs/chaplin) framework, [Sass](https://github.com/nex3/sass) and [Jade](http://jade-lang.com/).
 
 Requires Brunch 1.4+.
 
@@ -27,10 +27,11 @@ except a few changes:
 ## Differences from Brunch with Chaplin
 [Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin) is a default application skeleton for Brunch.
 * Sass is used in place of Stylus.
+* Jade is used in replace of Handlebars
 
 ## Features
 * HTML5Boilerplate 4.0.0 html & css are included.
-* CoffeeScript + Sass + Handlebars as app languages
+* CoffeeScript + Sass + Jade as app languages
 (you can change this to anything you want)
 * Backbone as main framework
 * Supports IE8 and up.
