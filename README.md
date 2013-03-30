@@ -1,10 +1,10 @@
-# Sassy Brunch
-![Sassy Brunch logo](https://raw.github.com/bc-luke/sassy-brunch/master/logo.png)
+# Brunch with Sass and Jade
 
 Sassy Brunch is a skeleton (boilerplate) for [Brunch](http://brunch.io)
 based on [Chaplin](https://github.com/chaplinjs/chaplin) framework, [Sass](https://github.com/nex3/sass) and [Jade](http://jade-lang.com/).
 
-Requires Brunch 1.4+.
+- Based on [Sassy Brunch](https://raw.github.com/bc-luke/sassy-brunch)
+- Requires Brunch 1.4+.
 
 ## Getting started
 * Create new project by executing `brunch new <project name> --skeleton https://github.com/bc-luke/sassy-brunch`.
