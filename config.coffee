@@ -14,7 +14,8 @@ exports.config =
           'vendor/scripts/console-helper.js',
           'vendor/scripts/jquery-1.8.2.js',
           'vendor/scripts/underscore-1.4.0.js',
-          'vendor/scripts/backbone-0.9.2.js'
+          'vendor/scripts/backbone-0.9.10.js',
+          'vendor/scripts/chaplin-0.7.0.js'
         ]
 
     stylesheets:

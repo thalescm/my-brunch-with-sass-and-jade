@@ -8,7 +8,19 @@ module.exports = class HeaderView extends View
   container: '#header-container'
   autoRender: true
 
-  initialize: ->
+  initialize: =>
     super
-    @subscribeEvent 'loginStatus', @render
-    @subscribeEvent 'startupController', @render
+
+    @delegate 'click', '.js_welcome', @welcomeClicked
+    # @subscribeEvent 'loginStatus', @render
+    # @subscribeEvent 'startupController', @render
+
+  attach: ->
+    super
+    # $(".position").position
+    #   my: "rigth center"
+    #   at: "rigth bottom"
+    #   of: "#digite"
+
+  welcomeClicked: ->
+    @publishEvent '!router:route', ''

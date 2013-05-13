@@ -1,32 +1,20 @@
-@import 'color';
-
-/* ==========================================================================
-   Header
-   ========================================================================== */
-
-.header {
-  width: 476px;
-  margin: 0 auto;
-  padding: 10px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background-color: $header-background-color;
-  
-  & .header-link {
-    margin-right: 32px;
-    text-decoration: none;
-    color: $link-color;
-
-    &:visited {
-      color: $link-color;
-    }
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
+#header-container{
+  width: 100%;
+  height: auto;
+  background-color: #6495ED;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: fixed;
 }
+
+
+.js_welcome{
+  display: inline-block;
+  color: white;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+
+

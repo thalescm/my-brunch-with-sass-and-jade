@@ -7,3 +7,4 @@ module.exports = class HeaderController extends Controller
     super
     @model = new Header()
     @view = new HeaderView({@model})
+    

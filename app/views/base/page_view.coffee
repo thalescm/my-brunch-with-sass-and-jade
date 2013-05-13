@@ -8,7 +8,7 @@ module.exports = class PageView extends View
   initialize: ->
     super
     if @model or @collection
-      rendered = no
+      rendered = yes
       @modelBind 'change', =>
         @render() unless rendered
         rendered = yes
