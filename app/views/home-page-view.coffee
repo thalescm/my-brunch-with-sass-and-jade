@@ -3,6 +3,7 @@ template = require 'views/templates/home-father'
 HomeCollectionView = require 'views/home_collection_view'
 Collection = require 'models/base/collection'
 Model = require 'models/base/model'
+PerfilView = require 'views/perfil_view'
 
 
 module.exports = class HomePageView extends View
@@ -13,19 +14,33 @@ module.exports = class HomePageView extends View
 
   initialize: ->
     super
-
     @delegate 'click', '.js_button', @buttonClicked
+    # @delegate 'click', '.js_tags', @tagClicked
+    @delegate 'tap', @swipeDone
 
   attach: ->
     super
-
+    # hammer = new Hammer(document.getElementByClass("home-father"))
+    # removeSubview\
+    $('.perfil').css("display", "none")
+    $(".home-father").transition({y:'100%'}, 750, 'ease')
     @subview 'home-collection', new HomeCollectionView
       container: '.subviews-boxlist'
       collection: new Collection()
 
+  swipeDone: ->
+    alert 'yo'
 
+  tagClicked: (el)->
+    obj = @collection.where({nome: $(el.target).text()})
+    console.log obj
+    # subview ''
 
-  buttonClicked: ->
+  buttonClicked: (el)->
+    $(el.target).css({transformOrigin:'5% 50%'})
+    $(el.target).transition({rotate:'30deg'})
+    $(el.target).transition({rotate:'0deg'})
+
     input = $(".js_input").val()
     obj = @collection.where({nome: input})
     subViewObj = @subview 'home-collection'

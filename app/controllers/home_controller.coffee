@@ -25,13 +25,9 @@ module.exports = class HomeController extends Controller
       @view = new HomePageView {collection:db}
 
   perfil: (params)->
-  
     db = new Database()
     col = db.getUser()
-    obj = col.where({codigo: params.id})   
-
-    if (obj.length > 0) 
-      console.log obj[0]
-      @view = new PerfilView
-        model: obj[0]
+    obj = col.get(params.id)
+    @view = new PerfilView
+      model: obj
 

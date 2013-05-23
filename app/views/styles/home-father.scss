@@ -1,9 +1,16 @@
-.container {
-  padding-top:33px;
+html, body {
+  height: 100%;
+}
+.home-page-container{
+  height: 100%;
 }
 .home-father{
+  position: absolute;
+  top: -100%;
+  left: 25%;
+  padding-top: 33px;
   margin: auto;
-  height: 300px;
+  height: 100%;
   width: 50%;
   background-image: linear-gradient(bottom, rgb(84,103,179) 11%, rgb(100,148,237) 56%);
 background-image: -o-linear-gradient(bottom, rgb(84,103,179) 11%, rgb(100,148,237) 56%);
@@ -47,7 +54,11 @@ background-image: -webkit-gradient(
   color-stop(0.55, rgb(20,115,179))
 );
   border: 2px transparent black;
+  z-index: 5;
 
+}
+.img, .js_tags{
+  display: inline-block;
 }
 
 #digite{
@@ -59,7 +70,7 @@ background-image: -webkit-gradient(
 }
 
 .not_found{
-  position: relative;
+  // position: relative;
   margin:auto;  
   height: auto;
   color: black ;
@@ -68,4 +79,24 @@ background-image: -webkit-gradient(
   vertical-align: center;
   opacity: 0;
   width:100%;
+}
+
+.display img{
+  height: 75%;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  display: block;
+}
+.display{
+  position: relative;
+  left: -100%;
+  display: none;
+  width:100%;
+  height: 100%;
+  text-align: center;
+  font-size: 3em;
+  margin-right: 100%;
+  background-color: red;
+  origin: 0px 0px;
 }

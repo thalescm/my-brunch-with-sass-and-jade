@@ -10,3 +10,8 @@ module.exports = class PerfilView extends View
   getTemplateData: ->
     super
     @model.attributes
+
+  attach: ->
+    super
+    $(".perfil").transition({x:'100%'}, 1000, 'ease')
+    $(".imagem").transition({perspective:'100px',rotateY:'180deg',delay:1000}, 1000, 'ease')

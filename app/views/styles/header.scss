@@ -1,12 +1,13 @@
 #header-container{
+  origin: 0px 0px;
   width: 100%;
-  height: auto;
+  height: 50px;
   background-color: #6495ED;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   position: fixed;
+  z-index: 5;
 }
-
 
 .js_welcome{
   display: inline-block;
